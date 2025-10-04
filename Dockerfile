@@ -1,5 +1,5 @@
-FROM python:slim-bullseye
-
+FROM python:3.10-slim
+     
 WORKDIR /wbb
 RUN chmod 777 /wbb
 
